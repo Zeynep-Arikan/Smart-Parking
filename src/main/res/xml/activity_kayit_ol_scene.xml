@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet>
+        <Constraint
+            android:id="@+id/kullanici_ad"
+            android:layout_width="157dp"
+            android:layout_height="26dp"
+            motion:layout_editor_absoluteY="303dp"
+            motion:layout_editor_absoluteX="47dp" />
+        <Constraint
+            android:id="@+id/sifre"
+            android:layout_width="157dp"
+            android:layout_height="26dp"
+            motion:layout_editor_absoluteY="256dp"
+            motion:layout_editor_absoluteX="47dp" />
+        <Constraint
+            android:id="@+id/plaka_no"
+            android:layout_width="157dp"
+            android:layout_height="26dp"
+            motion:layout_editor_absoluteY="208dp"
+            motion:layout_editor_absoluteX="47dp" />
+        <Constraint
+            android:id="@+id/email"
+            android:layout_width="157dp"
+            android:layout_height="26dp"
+            motion:layout_editor_absoluteY="158dp"
+            motion:layout_editor_absoluteX="47dp" />
+        <Constraint
+            android:id="@+id/ad_soyad"
+            android:layout_width="161dp"
+            android:layout_height="23dp"
+            motion:layout_editor_absoluteY="114dp"
+            motion:layout_editor_absoluteX="47dp" />
+        <Constraint
+            android:id="@+id/kayit_ol"
+            android:layout_width="157dp"
+            android:layout_height="26dp"
+            motion:layout_editor_absoluteY="61dp"
+            motion:layout_editor_absoluteX="127dp" />
+        <Constraint
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="97dp"
+            motion:layout_editor_absoluteX="155dp" />
+        <Constraint
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="138dp"
+            motion:layout_editor_absoluteX="135dp" />
+        <Constraint
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="190dp"
+            motion:layout_editor_absoluteX="139dp" />
+        <Constraint
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="241dp"
+            motion:layout_editor_absoluteX="110dp" />
+        <Constraint
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="289dp"
+            motion:layout_editor_absoluteX="169dp" />
+        <Constraint
+            android:id="@+id/constraints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Constraint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="393dp"
+            motion:layout_editor_absoluteX="161dp"
+            android:id="@+id/btnkaydet"
+            motion:layout_constraintTop_toTopOf="@+id/kullanici_ad"
+            android:layout_marginTop="251dp" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+</MotionScene>
